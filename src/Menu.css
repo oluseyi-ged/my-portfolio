@@ -14,3 +14,7 @@
 .menu__media > a {
   text-decoration: none;
 }
+
+.custom-active-class .custom-link-class {
+  background-color: red;
+}

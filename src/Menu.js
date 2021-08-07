@@ -14,7 +14,9 @@ function Menu() {
         <Link to="/">
           <MenuOption active optionID="01" option="projects" />
         </Link>
-        <MenuOption optionID="02" option="skills" />
+        <Link to="/skills">
+          <MenuOption optionID="02" option="skills" />
+        </Link>
         <MenuOption optionID="03" option="clones" />
         {/* <MenuOption optionID="4" option="" /> */}
       </div>

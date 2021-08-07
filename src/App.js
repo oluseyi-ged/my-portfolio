@@ -17,6 +17,10 @@ function App() {
           </div>
           <div className="app__right">
             <Switch>
+              <Route path="/skills">
+                {/* <Skills /> */}
+                <h1>skills</h1>
+              </Route>
               <Route path="/">
                 <Projects />
               </Route>

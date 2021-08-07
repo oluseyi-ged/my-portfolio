@@ -5,6 +5,9 @@ import "./Projects.css"
 function Projects() {
   return (
     <div className="projects">
+      <h1 className="projects__header">
+        These are the lists of my ongoing and completed projects over the years
+      </h1>
       <ProjectCard
         language="React JS"
         brand="Omney"
