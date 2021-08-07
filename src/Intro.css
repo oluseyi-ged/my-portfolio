@@ -1,5 +1,6 @@
 .intro {
   margin-bottom: 50px;
+  flex: 0.5;
 }
 
 .intro__header {

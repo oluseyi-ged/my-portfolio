@@ -1,0 +1,21 @@
+.mediaOption {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.mediaOption > h4 {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 12px;
+}
+
+.mediaOption > h4 > .MuiSvgIcon-root {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mediaOption > h4:hover {
+  color: white;
+  cursor: pointer;
+}

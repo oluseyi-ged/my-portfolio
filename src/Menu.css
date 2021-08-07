@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.5;
+}
+
+.menu__media {
+  display: flex;
+  margin-top: 150px;
+  flex-wrap: wrap;
+}
+
+.menu__media > a {
+  text-decoration: none;
+}
