@@ -1,0 +1,15 @@
+.intro {
+  padding: 50px;
+  background-color: var(--portfolio-background);
+}
+
+.intro__header {
+  color: var(--portfolio-white);
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.intro__bio {
+  color: var(--portfolio-offwhite);
+  font-weight: 700;
+}

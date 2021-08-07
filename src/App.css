@@ -1,3 +1,10 @@
 * {
   margin: 0;
 }
+
+body {
+  --portfolio-background: #151515;
+  --portfolio-white: #ffffff;
+  --portfolio-offwhite: #585858;
+  --portfolio-offwhite2: #171717;
+}
