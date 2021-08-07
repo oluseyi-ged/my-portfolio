@@ -8,3 +8,8 @@ body {
   --portfolio-offwhite: #585858;
   --portfolio-offwhite2: #171717;
 }
+
+.app__body {
+  padding: 50px;
+  background-color: var(--portfolio-background);
+}

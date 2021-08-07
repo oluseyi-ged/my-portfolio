@@ -1,6 +1,5 @@
 .intro {
-  padding: 50px;
-  background-color: var(--portfolio-background);
+  margin-bottom: 50px;
 }
 
 .intro__header {
