@@ -4,10 +4,16 @@ import Intro from "./Intro"
 import Menu from "./Menu"
 import Projects from "./Projects"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { Helmet } from "react-helmet"
 
 function App() {
   return (
     <div className="app">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <title>My Title</title>
+      </Helmet>
       <Router>
         <Header />
         <div className="app__body">
