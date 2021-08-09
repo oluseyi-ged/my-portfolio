@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   flex: 0.5;
+  transition: transform 450ms;
 }
 
 .menu__media {
@@ -17,4 +18,53 @@
 
 .custom-active-class .custom-link-class {
   background-color: red;
+}
+
+.menu__pagesLink h4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--portfolio-offwhite);
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 7px;
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.menu__pagesLink:link {
+  text-decoration: none;
+}
+
+.menu__pagesLine {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.menu__pagesLink h4:hover {
+  color: white;
+  margin-left: 20px;
+  transition: scale 300ms ease-in-out;
+  background-color: rgb(58, 73, 82, 0.3);
+  text-decoration: none;
+}
+
+.menu__pagesLink:active {
+  color: white;
+  margin-left: 20px;
+  transition: scale 300ms ease-in-out;
+  background-color: rgb(58, 73, 82, 0.3);
+  text-decoration: none;
+}
+
+.active h4 {
+  color: white;
+  margin-left: 20px;
+  transition: scale 300ms ease-in-out;
+  background-color: rgb(58, 73, 82, 0.3);
+  text-decoration: none;
 }
