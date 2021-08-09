@@ -3,6 +3,7 @@ import Header from "./Header"
 import Intro from "./Intro"
 import Menu from "./Menu"
 import Projects from "./Projects"
+import Skills from "./Skills"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { Helmet } from "react-helmet"
 
@@ -24,8 +25,7 @@ function App() {
           <div className="app__right">
             <Switch>
               <Route path="/skills">
-                {/* <Skills /> */}
-                <h1>skills</h1>
+                <Skills />
               </Route>
               <Route path="/">
                 <Projects />

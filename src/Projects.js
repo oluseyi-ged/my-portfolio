@@ -21,12 +21,7 @@ function Projects() {
         link="ongoing"
       />
 
-      <ProjectCard
-        language="React JS"
-        brand="RIDIMA"
-        client=""
-        link="ongoing"
-      />
+      <ProjectCard language="React JS" brand="RIDIMA" client="" link="halted" />
     </div>
   )
 }
