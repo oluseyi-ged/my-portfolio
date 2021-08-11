@@ -40,6 +40,11 @@ function Clones() {
         cloneName="Tinder Clone"
         url="https://tinder-appclone.netlify.app/"
       />
+      <CloneCard
+        cloneID="https://cdn.svgporn.com/logos/github-octocat.svg"
+        cloneName="More on Github"
+        url="https://github.com/oluseyi-ged"
+      />
     </div>
   )
 }
