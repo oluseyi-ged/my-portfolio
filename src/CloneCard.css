@@ -1,0 +1,30 @@
+.cloneCard > a {
+  text-decoration: none;
+}
+
+.cloneCard__body {
+  display: flex;
+  background-color: #201f25;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align-items: center;
+  padding: 20px;
+  margin-left: auto;
+  color: var(--portfolio-offwhite);
+  text-align: left;
+  width: 400px;
+  margin-bottom: 30px;
+  transition: transform 450ms;
+  text-decoration: none;
+}
+
+.cloneCard__body > img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.cloneCard__body:hover {
+  color: var(--portfolio-white);
+  background-color: #202020;
+  transform: scale(1.3);
+}

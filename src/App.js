@@ -4,6 +4,7 @@ import Intro from "./Intro"
 import Menu from "./Menu"
 import Projects from "./Projects"
 import Skills from "./Skills"
+import Clones from "./Clones"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { Helmet } from "react-helmet"
 
@@ -24,6 +25,9 @@ function App() {
           </div>
           <div className="app__right">
             <Switch>
+              <Route path="/clones">
+                <Clones />
+              </Route>
               <Route path="/skills">
                 <Skills />
               </Route>

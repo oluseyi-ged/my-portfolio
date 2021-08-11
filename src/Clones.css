@@ -1,0 +1,21 @@
+.clones {
+  display: flex;
+  flex-direction: column;
+  height: 680px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding: 50px;
+}
+
+.clones::-webkit-scrollbar {
+  display: none;
+}
+
+.clones__header {
+  color: var(--portfolio-white);
+  font-size: 15px;
+  font-weight: 500;
+  text-align: right;
+  margin-bottom: 50px;
+}
