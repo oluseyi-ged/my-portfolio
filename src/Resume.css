@@ -1,0 +1,28 @@
+.resume__blur {
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  cursor: pointer;
+}
+
+.resume__blur:hover {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.resume > img {
+  width: 500px;
+}
+
+.resume__overlay {
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.resume__text {
+  color: white;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}

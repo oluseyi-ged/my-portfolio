@@ -7,6 +7,7 @@ import Skills from "./Skills"
 import Clones from "./Clones"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { Helmet } from "react-helmet"
+import Resume from "./Resume"
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </div>
           <div className="app__right">
             <Switch>
+              <Route path="/resume">
+                <Resume />
+              </Route>
               <Route path="/clones">
                 <Clones />
               </Route>
