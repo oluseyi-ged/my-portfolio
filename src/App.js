@@ -8,6 +8,7 @@ import Clones from "./Clones"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { Helmet } from "react-helmet"
 import Resume from "./Resume"
+import Error from "./Error"
 
 function App() {
   return (
@@ -35,8 +36,11 @@ function App() {
               <Route path="/skills">
                 <Skills />
               </Route>
-              <Route path="/">
+              <Route exact path="/">
                 <Projects />
+              </Route>
+              <Route path="*">
+                <Error />
               </Route>
             </Switch>
           </div>
