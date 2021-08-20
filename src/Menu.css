@@ -20,6 +20,10 @@
   background-color: red;
 }
 
+.menu__pages {
+  width: fit-content;
+}
+
 .menu__pagesLink h4 {
   display: flex;
   flex-direction: row;

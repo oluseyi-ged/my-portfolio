@@ -1,4 +1,9 @@
 .projectCard {
+  width: fit-content;
+  text-decoration: none;
+}
+
+.projectPad {
   margin-left: auto;
   color: var(--portfolio-offwhite);
   background-color: #201f25;
@@ -8,6 +13,16 @@
   margin-bottom: 30px;
   transition: transform 450ms;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projectPad > a {
+  text-decoration: none !important;
+  color: var(--portfolio-offwhite);
+}
+
+.projectPad > a:hover {
+  text-decoration: none !important;
+  color: white;
 }
 
 .projectCard > h4 {
@@ -32,7 +47,7 @@
   font-size: 12px;
 }
 
-.projectCard:hover {
+.projectPad:hover {
   color: var(--portfolio-white);
   background-color: #202020;
   transform: scale(1.3);

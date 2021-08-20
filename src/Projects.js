@@ -12,16 +12,51 @@ function Projects() {
         language="React JS"
         brand="Omney"
         client="FCMB"
-        link="ongoing"
+        status="completed"
       />
+      <ProjectCard
+        language="React Native"
+        brand="Flippay"
+        client=""
+        link="https://play.google.com/store/apps/details?id=com.paynyce.flippay"
+      />
+
+      <ProjectCard
+        language="Nuxt.js"
+        brand="Easyship"
+        client=""
+        link="easyship.com"
+      />
+
       <ProjectCard
         language="HTML, CSS, JS"
         brand="MarketHub"
         client="Vodacom"
-        link="ongoing"
+      />
+      <ProjectCard
+        language="React Native"
+        brand="Pawa2u"
+        client="RMH Limited"
+        link="https://play.google.com/store/apps/details?id=com.soardigital.pawa2user"
+      />
+      <ProjectCard
+        language="React JS"
+        brand="RIDIMA"
+        client=""
+        status="halted"
+      />
+      <ProjectCard
+        language="React Native"
+        brand="Standard Life EMS"
+        link="https://play.google.com/store/apps/details?id=com.itskillscenter.slo"
       />
 
-      <ProjectCard language="React JS" brand="RIDIMA" client="" link="halted" />
+      <ProjectCard
+        language="Wordpress"
+        brand="Chownow"
+        client=""
+        link="get.chownow.com"
+      />
     </div>
   )
 }

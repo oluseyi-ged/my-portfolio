@@ -5,6 +5,9 @@ import CloneCard from "./CloneCard"
 function Clones() {
   return (
     <div className="clones">
+      <h1 className="clones__header">
+        This is a list of clone projects done at leisure.
+      </h1>
       <CloneCard
         cloneID="https://cdn.svgporn.com/logos/slack-icon.svg"
         cloneName="Slack Clone"

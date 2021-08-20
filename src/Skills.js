@@ -7,7 +7,7 @@ function Skills() {
     <div className="skills">
       <SkillCard
         skillID="https://cdn.svgporn.com/logos/react.svg"
-        skill="React.JS"
+        skill="React.JS/React Native"
       />
       <SkillCard
         skillID="https://cdn.svgporn.com/logos/css-3.svg"

@@ -15,8 +15,9 @@ function App() {
     <div className="app">
       <Helmet>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=1024" />
-        <title>My Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.1" />
+        {/* <meta name="viewport" content="width=1024" /> */}
+        <title>Oluseyi's portfolio website</title>
       </Helmet>
       <Router>
         <Header />

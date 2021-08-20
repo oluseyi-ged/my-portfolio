@@ -48,7 +48,7 @@ function Menu() {
           </h4>
         </NavLink>
 
-        <NavLink
+        {/* <NavLink
           className="menu__pagesLink"
           activeClassName="active"
           to="/resume"
@@ -58,7 +58,7 @@ function Menu() {
             <RemoveIcon className="menu__pagesLine" />
             view resume
           </h4>
-        </NavLink>
+        </NavLink> */}
         {/* <Link to="/">
           <MenuOption active optionID="01" option="projects" />
         </Link>
